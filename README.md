@@ -119,4 +119,4 @@ google-maps-scraper-kit/
 
 ## License
 
-MIT. Third-party components and their licenses: [CREDITS.md](CREDITS.md).
+Built by [Mahan](https://github.com/Mahanaicoach). MIT licensed. Third-party components: [CREDITS.md](CREDITS.md).
