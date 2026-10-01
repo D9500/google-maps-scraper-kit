@@ -39,4 +39,4 @@ If the container isn't running: `docker compose up -d`, then verify `curl http:/
 Full setup is in `SETUP.md`.
 
 ## Attribution
-This wraps `gosom/google-maps-scraper` (MIT, © Georgios Komninos). Keep `CREDITS.md` + `LICENSE` intact.
+The scraping engine is `gosom/google-maps-scraper` (MIT, © Georgios Komninos), run as its official Docker image. Keep `CREDITS.md` and `LICENSE` intact.

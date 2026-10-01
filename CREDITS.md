@@ -1,7 +1,6 @@
 # Credits & Attribution
 
-This kit is a **wrapper** around an existing open-source project. The actual scraping engine is **not**
-written by this kit's author — full credit goes to the original author.
+The Google Maps Scraper Kit runs on an open-source scraping engine by Georgios Komninos.
 
 ## Upstream project
 
@@ -11,9 +10,9 @@ written by this kit's author — full credit goes to the original author.
 - **License:** MIT License — Copyright (c) 2023 Georgios Komninos
 - **Docker image used:** `gosom/google-maps-scraper`
 
-This kit pulls and runs the official published Docker image. It does **not** modify or redistribute the
-upstream source code — it only adds a Docker Compose setup, helper scripts, documentation, and a Claude
-skill around it. All scraping capability and field extraction come from the upstream project.
+The kit runs the official published Docker image and does not modify or redistribute the engine's
+source. The kit itself provides the orchestration layer: local deployment, lead-field cleaning, CSV
+output, auto-geocoding, batch jobs, social profile enrichment, and the Claude skill and commands.
 
 ## Upstream license (reproduced as required by MIT)
 
@@ -41,5 +40,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-If you found this useful, please **⭐ star the upstream repo** to support the original author:
-https://github.com/gosom/google-maps-scraper
+Support the engine's author by starring the repository: https://github.com/gosom/google-maps-scraper
