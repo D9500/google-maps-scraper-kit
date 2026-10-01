@@ -119,5 +119,4 @@ google-maps-scraper-kit/
 
 ## License
 
-MIT. Scraping engine: [google-maps-scraper](https://github.com/gosom/google-maps-scraper) by Georgios
-Komninos (MIT), run as its official Docker image. See [CREDITS.md](CREDITS.md).
+MIT. Third-party components and their licenses: [CREDITS.md](CREDITS.md).
